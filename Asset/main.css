@@ -1,0 +1,55 @@
+/*===============type out the hearts======================*/
+/*body{
+  height: 100vh;     
+  margin: 0;
+  cursor: url(heartc.svg),auto;
+}*/
+
+#input{
+	text-align: center;
+}
+
+#patternspace{
+ width:80%;     
+  margin-left: 10%;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.heartblue{
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 1.5em;  up right bottom left
+    animation: pop 2s ease-in 0s infinite;
+}
+
+.hpng{
+  margin:0;
+  padding: 0;
+  width: 100px;
+  height: 90px;
+}
+
+.heartred{
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 1.5em;
+}
+
+/*===============moving mouse thing======================*/
+
+body{
+  margin: 0;
+  padding:0;
+}
+
+.pointer{
+  top:50%;
+  left:50%;
+  position:absolute;  
+  transform:translate(-50%,-50%);
+  pointer-events: none;
+  box-sizing: border-box;
+  transition:0.2s;
+}
